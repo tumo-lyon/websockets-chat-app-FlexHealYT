@@ -13,7 +13,7 @@ export function setTypingIndicator(typingUsers) {
 	}
 	
 	if (typingUsers.length > 0) {
-		typingElement.innerText = typingUsers.join(', ') + ' are typing...';
+		typingElement.innerText = `${typingUsers.join(', ')} are typing...`;
 	} else {
 		typingElement.innerText = '';
 	}
